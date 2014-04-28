@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="REDViewController5">
+            <connections>
+                <outlet property="bodyLabel" destination="T0b-Wt-XvD" id="zUa-RA-MLB"/>
+                <outlet property="firstOptionLabel" destination="cO2-Hh-Reh" id="Ab1-tB-ir7"/>
+                <outlet property="firstOptionParagraph" destination="BIy-Z9-mQ5" id="DaZ-AM-AF0"/>
+                <outlet property="headerLabel" destination="RgJ-Ee-PLw" id="dW1-9M-SUL"/>
+                <outlet property="secondOptionLabel" destination="Vga-Qo-dNN" id="7rE-oZ-DCD"/>
+                <outlet property="secondOptionParagraph" destination="lyj-3T-07K" id="1Xa-Pp-FOn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RgJ-Ee-PLw" userLabel="Header">
+                    <rect key="frame" x="104" y="47" width="734" height="103"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text">Thank you for agreeing to participate!  
+Why should you fill out this questionnaire?</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T0b-Wt-XvD" userLabel="Body">
+                    <rect key="frame" x="104" y="150" width="838" height="260"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text" base64-UTF8="YES">
+V2UgZ2l2ZSB0aGlzIHF1ZXN0aW9ubmFpcmUgdG8gYWxsIG9mIG91ciBwYXRpZW50cywgYmVjYXVzZSB0
+b2JhY2NvLCBhbGNvaG9sLCBvciBvdGhlciBkcnVncyBjYW4gYWZmZWN0IHlvdXIgaGVhbHRoIGFuZCB0
+aGUgbWVkaWNhdGlvbnMgA3lvdSB0YWtlLiAgSXQgaXMgaW1wb3J0YW50IHRvIGJlIGhvbmVzdCBpbiBh
+bnN3ZXJpbmcgdGhlc2UgcXVlc3Rpb25zLiAgDUF0IHRoZSBlbmQgb2YgdGhlIHF1ZXN0aW9ubmFpcmUg
+eW91IHdpbGwgcmVjZWl2ZSB5b3VyIHJlc3VsdHMgYW5kIHdpbGwgYmUgZ2l2ZW4gdGhlIG9wdGlvbiBv
+ZiBzaGFyaW5nIHRob3NlIHJlc3VsdHMgd2l0aCB5b3VyIG1lZGljYWwgcHJvdmlkZXIuA
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BIy-Z9-mQ5" userLabel="1 Par">
+                    <rect key="frame" x="104" y="468" width="396" height="195"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text" base64-UTF8="YES">
+SWYgeW91IGRlY2lkZSB0byBzaGFyZSDigKgDeW91ciByZXN1bHRzLCB0aGV5IHdpbGwgYmUg4oCodXNl
+ZCBvbmx5IGJ5IHlvdXIgbWVkaWNhbCDigKhwcm92aWRlcihzKS4gVGhpcyBpbmZvcm1hdGlvbiDigKhj
+YW4gaGVscCB0aGVtIHRvIGdpdmUgeW91IOKAqGJldHRlciBtZWRpY2FsIGNhcmUuA
+</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lyj-3T-07K" userLabel="2 Par">
+                    <rect key="frame" x="550" y="470" width="357" height="159"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text" base64-UTF8="YES">
+SWYgeW91IGRlY2lkZSBub3QgdG8gc2hhcmUgA3lvdXIgcmVzdWx0cywgbm8gb25lIGluIHRoZSADY2xp
+bmljIHdpbGwgc2VlIHlvdXIgcmVzcG9uc2VzLiAgWW91ciBhbm9ueW1vdXMgZGF0YSB3aWxsIGJlIHVz
+ZWQgaW4gcmVzZWFyY2ggb25seS4
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle33x33.png" id="PCY-Qp-hsl">
+                    <rect key="frame" x="187" y="427" width="33" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cO2-Hh-Reh">
+                    <rect key="frame" x="106" y="430" width="167" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" red="0.13725490196078433" green="0.12156862745098039" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle33x33.png" id="TH1-D9-7NH">
+                    <rect key="frame" x="632" y="427" width="33" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vga-Qo-dNN">
+                    <rect key="frame" x="550" y="430" width="123" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" red="0.13725490196078433" green="0.12156862745098039" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1bA-iH-6jU" customClass="REDNextButton">
+                    <rect key="frame" x="874" y="718" width="150" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.82352941180000006" green="0.82745098039999998" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="NEXT" image="rectImage.png">
+                        <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pressNextButton:" destination="-1" eventType="touchUpInside" id="Fat-Hp-km5"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="n1a-u5-nSc" userLabel="Button - PREW" customClass="REDNextButton">
+                    <rect key="frame" x="0.0" y="718" width="150" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.82352941180000006" green="0.82745098039999998" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="LucidaGrande-Bold" family="Lucida Grande" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="-30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="PREW" image="rectImage.png">
+                        <color key="titleColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pressPrevButton:" destination="-1" eventType="touchUpInside" id="VQZ-wz-DVu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000000000001" green="0.59607843137254901" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="circle33x33.png" width="33" height="33"/>
+        <image name="rectImage.png" width="27" height="26"/>
+    </resources>
+</document>

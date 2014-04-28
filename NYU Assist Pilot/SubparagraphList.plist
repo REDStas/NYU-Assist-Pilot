@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Tobacco products (cigarettes, chewing tobacco, cigars, etc.)</string>
+	<string>Alcoholic beverages (beer, wine, spirits, etc.)</string>
+	<string>Marijuana (cannabis, pot, grass, hash, etc.)</string>
+	<string>Cocaine (coke, crack, etc.)</string>
+	<string>Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report recreational use only.]</string>
+	<string>Methamphetamine (speed, crystal meth, ice, etc.)</string>
+	<string>Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)</string>
+	<string>Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report recreational use only.]</string>
+	<string>Hallucinogens (Ecstasy, LSD, acid, mushrooms, PCP, Special K, etc.)</string>
+	<string>Heroin</string>
+	<string>Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report recreational use only.]</string>
+	<string>Other – Specify: </string>
+</array>
+</plist>

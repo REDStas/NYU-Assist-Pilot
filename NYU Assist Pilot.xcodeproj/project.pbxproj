@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8603B39F18F3E8090091B93A /* REDSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B39E18F3E8090091B93A /* REDSettings.m */; };
+		8603B3A218F3F2F30091B93A /* REDQuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3A118F3F2F30091B93A /* REDQuestionFactory.m */; };
+		8603B3A418F4092B0091B93A /* QuestionList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3A318F4092B0091B93A /* QuestionList.plist */; };
+		8603B3B318F40D430091B93A /* HammersmithOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3A918F40D430091B93A /* HammersmithOne-Regular.ttf */; };
+		8603B3B518F40D430091B93A /* ZapfDingbatsStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3AC18F40D430091B93A /* ZapfDingbatsStd.otf */; };
+		8603B3B618F40D430091B93A /* Muli-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3AE18F40D430091B93A /* Muli-Italic.ttf */; };
+		8603B3B718F40D430091B93A /* Muli-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3AF18F40D430091B93A /* Muli-Light.ttf */; };
+		8603B3B818F40D430091B93A /* Muli-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3B018F40D430091B93A /* Muli-LightItalic.ttf */; };
+		8603B3B918F40D430091B93A /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3B118F40D430091B93A /* Muli-Regular.ttf */; };
+		8603B3BD18F40F280091B93A /* REDFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3BC18F40F280091B93A /* REDFontManager.m */; };
+		8603B3C018F417E30091B93A /* headerCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3BF18F417E30091B93A /* headerCircle.png */; };
+		8603B3C318F41A000091B93A /* REDNextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3C218F41A000091B93A /* REDNextButton.m */; };
+		8603B3C518F4255B0091B93A /* rectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3C418F4255B0091B93A /* rectImage.png */; };
+		8603B3C918F427100091B93A /* REDIntroduction4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3C718F427100091B93A /* REDIntroduction4.m */; };
+		8603B3CA18F427100091B93A /* REDIntroduction4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3C818F427100091B93A /* REDIntroduction4.xib */; };
+		8603B3CE18F434D00091B93A /* REDViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3CC18F434D00091B93A /* REDViewController5.m */; };
+		8603B3CF18F434D00091B93A /* REDViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3CD18F434D00091B93A /* REDViewController5.xib */; };
+		8603B3D418F43C360091B93A /* circle52x52.png in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3D218F43C360091B93A /* circle52x52.png */; };
+		8603B3D518F43C360091B93A /* circle33x33.png in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3D318F43C360091B93A /* circle33x33.png */; };
+		8603B3D918F447380091B93A /* REDDemographicsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603B3D718F447370091B93A /* REDDemographicsScreen.m */; };
+		8603B3DA18F447380091B93A /* REDDemographicsScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8603B3D818F447380091B93A /* REDDemographicsScreen.xib */; };
+		860E6C91190689E20030FD2E /* REDThreeAnswerQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E6C8F190689E10030FD2E /* REDThreeAnswerQuestion.m */; };
+		860E6C92190689E20030FD2E /* REDThreeAnswerQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860E6C90190689E10030FD2E /* REDThreeAnswerQuestion.xib */; };
+		860E6C96190695A40030FD2E /* REDEightBQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 860E6C94190695A40030FD2E /* REDEightBQuestion.m */; };
+		860E6C97190695A40030FD2E /* REDEightBQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860E6C95190695A40030FD2E /* REDEightBQuestion.xib */; };
+		86137CAB1907F60A00BEADCC /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CAA1907F60A00BEADCC /* BBAES.m */; };
+		86137CAD1907F68000BEADCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86137CAC1907F68000BEADCC /* Security.framework */; };
+		86137CC21907FE0000BEADCC /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CB01907FE0000BEADCC /* AFHTTPClient.m */; };
+		86137CC31907FE0000BEADCC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CB21907FE0000BEADCC /* AFHTTPRequestOperation.m */; };
+		86137CC41907FE0000BEADCC /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CB41907FE0000BEADCC /* AFImageRequestOperation.m */; };
+		86137CC51907FE0000BEADCC /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CB61907FE0000BEADCC /* AFJSONRequestOperation.m */; };
+		86137CC61907FE0000BEADCC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CB81907FE0000BEADCC /* AFNetworkActivityIndicatorManager.m */; };
+		86137CC71907FE0000BEADCC /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CBB1907FE0000BEADCC /* AFPropertyListRequestOperation.m */; };
+		86137CC81907FE0000BEADCC /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CBD1907FE0000BEADCC /* AFURLConnectionOperation.m */; };
+		86137CC91907FE0000BEADCC /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CBF1907FE0000BEADCC /* AFXMLRequestOperation.m */; };
+		86137CCA1907FE0000BEADCC /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 86137CC11907FE0000BEADCC /* UIImageView+AFNetworking.m */; };
+		867262B618FFFA9E00AA6F77 /* REDSexualRisk1.m in Sources */ = {isa = PBXBuildFile; fileRef = 867262B418FFFA9E00AA6F77 /* REDSexualRisk1.m */; };
+		867262B718FFFA9F00AA6F77 /* REDSexualRisk1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 867262B518FFFA9E00AA6F77 /* REDSexualRisk1.xib */; };
+		868568C419001EB70075C517 /* REDSexualRisk2.m in Sources */ = {isa = PBXBuildFile; fileRef = 868568C219001EB70075C517 /* REDSexualRisk2.m */; };
+		868568C519001EB70075C517 /* REDSexualRisk2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868568C319001EB70075C517 /* REDSexualRisk2.xib */; };
+		8691CE88190ABECD00FBCBF2 /* REDPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691CE86190ABECC00FBCBF2 /* REDPrintController.m */; };
+		8691CE89190ABECD00FBCBF2 /* REDPrintController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8691CE87190ABECC00FBCBF2 /* REDPrintController.xib */; };
+		8691CE8D190AC81500FBCBF2 /* REDPrintingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8691CE8B190AC81500FBCBF2 /* REDPrintingCell.m */; };
+		8691CE8E190AC81500FBCBF2 /* REDPrintingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8691CE8C190AC81500FBCBF2 /* REDPrintingCell.xib */; };
+		86922156190111590088AE8E /* circle52x52_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 86922155190111590088AE8E /* circle52x52_selected.png */; };
+		8692215A1901163C0088AE8E /* REDSexualRisk3.m in Sources */ = {isa = PBXBuildFile; fileRef = 869221581901163C0088AE8E /* REDSexualRisk3.m */; };
+		8692215B1901163C0088AE8E /* REDSexualRisk3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 869221591901163C0088AE8E /* REDSexualRisk3.xib */; };
+		869426B418FEBF7A006C2056 /* REDDetailsQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 869426B218FEBF7A006C2056 /* REDDetailsQuestion.m */; };
+		869426B518FEBF7A006C2056 /* REDDetailsQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 869426B318FEBF7A006C2056 /* REDDetailsQuestion.xib */; };
+		86A23E8118FC05DA00A23163 /* REDTestNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A23E8018FC05DA00A23163 /* REDTestNavigationController.m */; };
+		86A23E8618FC0B9000A23163 /* REDMainQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A23E8418FC0B9000A23163 /* REDMainQuestion.m */; };
+		86A23E8718FC0B9000A23163 /* REDMainQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A23E8518FC0B9000A23163 /* REDMainQuestion.xib */; };
+		86A23E8B18FC103600A23163 /* REDMainQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A23E8918FC103600A23163 /* REDMainQuestionCell.m */; };
+		86A23E8C18FC103600A23163 /* REDMainQuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A23E8A18FC103600A23163 /* REDMainQuestionCell.xib */; };
+		86F451FE18F52BB10065E3FD /* REDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F451FD18F52BB10065E3FD /* REDValidation.m */; };
+		86F4520218F5585D0065E3FD /* REDCloseScreen1.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4520018F5585D0065E3FD /* REDCloseScreen1.m */; };
+		86F4520318F5585D0065E3FD /* REDCloseScreen1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4520118F5585D0065E3FD /* REDCloseScreen1.xib */; };
+		86F4520718F55CCB0065E3FD /* REDResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4520518F55CCB0065E3FD /* REDResultCell.m */; };
+		86F4520818F55CCB0065E3FD /* REDResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4520618F55CCB0065E3FD /* REDResultCell.xib */; };
+		86F4520D18F5653D0065E3FD /* REDCloseScreen2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4520B18F5653D0065E3FD /* REDCloseScreen2.m */; };
+		86F4520E18F5653D0065E3FD /* REDCloseScreen2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4520C18F5653D0065E3FD /* REDCloseScreen2.xib */; };
+		86F4521218F56B9E0065E3FD /* REDCloseScreen3.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4521018F56B9E0065E3FD /* REDCloseScreen3.m */; };
+		86F4521318F56B9E0065E3FD /* REDCloseScreen3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4521118F56B9E0065E3FD /* REDCloseScreen3.xib */; };
+		86F4521718F583900065E3FD /* REDInformationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4521518F583900065E3FD /* REDInformationScreen.m */; };
+		86F4521818F583900065E3FD /* REDInformationScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4521618F583900065E3FD /* REDInformationScreen.xib */; };
+		86F4521C18F585C60065E3FD /* REDInformationScreen2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4521A18F585C60065E3FD /* REDInformationScreen2.m */; };
+		86F4521D18F585C60065E3FD /* REDInformationScreen2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4521B18F585C60065E3FD /* REDInformationScreen2.xib */; };
+		86F464FF18F686C00008D25B /* REDInformationScreen3.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F464FD18F686BF0008D25B /* REDInformationScreen3.m */; };
+		86F4650018F686C00008D25B /* REDInformationScreen3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F464FE18F686BF0008D25B /* REDInformationScreen3.xib */; };
+		86F4650418F6A8910008D25B /* REDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4650218F6A8910008D25B /* REDTest.m */; };
+		86F4650518F6A8910008D25B /* REDTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F4650318F6A8910008D25B /* REDTest.xib */; };
+		86F63C9818E315630073DD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63C9718E315630073DD76 /* Foundation.framework */; };
+		86F63C9A18E315630073DD76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63C9918E315630073DD76 /* CoreGraphics.framework */; };
+		86F63C9C18E315630073DD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63C9B18E315630073DD76 /* UIKit.framework */; };
+		86F63CA218E315630073DD76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F63CA018E315630073DD76 /* InfoPlist.strings */; };
+		86F63CA418E315630073DD76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F63CA318E315630073DD76 /* main.m */; };
+		86F63CA818E315630073DD76 /* REDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F63CA718E315630073DD76 /* REDAppDelegate.m */; };
+		86F63CAA18E315630073DD76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F63CA918E315630073DD76 /* Images.xcassets */; };
+		86F63CB118E315630073DD76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63CB018E315630073DD76 /* XCTest.framework */; };
+		86F63CB218E315630073DD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63C9718E315630073DD76 /* Foundation.framework */; };
+		86F63CB318E315640073DD76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F63C9B18E315630073DD76 /* UIKit.framework */; };
+		86F63CBB18E315640073DD76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F63CB918E315640073DD76 /* InfoPlist.strings */; };
+		86F63CBD18E315640073DD76 /* NYU_Assist_PilotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F63CBC18E315640073DD76 /* NYU_Assist_PilotTests.m */; };
+		86F7662F18E9987C0047DDE5 /* REDIntroductionScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F7662D18E9987C0047DDE5 /* REDIntroductionScreen.m */; };
+		86F7663018E9987C0047DDE5 /* REDIntroductionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F7662E18E9987C0047DDE5 /* REDIntroductionScreen.xib */; };
+		86F7663218E9A2A40047DDE5 /* SubparagraphList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F7663118E9A2A40047DDE5 /* SubparagraphList.plist */; };
+		86F97D6018FD28E400EED3AB /* REDQuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F97D5F18FD28E400EED3AB /* REDQuestionManager.m */; };
+		86F97D6418FD534E00EED3AB /* REDFiveAnswerQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F97D6218FD534E00EED3AB /* REDFiveAnswerQuestion.m */; };
+		86F97D6518FD534E00EED3AB /* REDFiveAnswerQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F97D6318FD534E00EED3AB /* REDFiveAnswerQuestion.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F63CB418E315640073DD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F63C8C18E315630073DD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F63C9318E315630073DD76;
+			remoteInfo = "NYU Assist Pilot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8603B39D18F3E8090091B93A /* REDSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDSettings.h; sourceTree = "<group>"; };
+		8603B39E18F3E8090091B93A /* REDSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDSettings.m; sourceTree = "<group>"; };
+		8603B3A018F3F2F30091B93A /* REDQuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDQuestionFactory.h; sourceTree = "<group>"; };
+		8603B3A118F3F2F30091B93A /* REDQuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDQuestionFactory.m; sourceTree = "<group>"; };
+		8603B3A318F4092B0091B93A /* QuestionList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionList.plist; sourceTree = "<group>"; };
+		8603B3A918F40D430091B93A /* HammersmithOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HammersmithOne-Regular.ttf"; sourceTree = "<group>"; };
+		8603B3AC18F40D430091B93A /* ZapfDingbatsStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZapfDingbatsStd.otf; sourceTree = "<group>"; };
+		8603B3AE18F40D430091B93A /* Muli-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Italic.ttf"; sourceTree = "<group>"; };
+		8603B3AF18F40D430091B93A /* Muli-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Light.ttf"; sourceTree = "<group>"; };
+		8603B3B018F40D430091B93A /* Muli-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-LightItalic.ttf"; sourceTree = "<group>"; };
+		8603B3B118F40D430091B93A /* Muli-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Muli-Regular.ttf"; sourceTree = "<group>"; };
+		8603B3BB18F40F280091B93A /* REDFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDFontManager.h; sourceTree = "<group>"; };
+		8603B3BC18F40F280091B93A /* REDFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDFontManager.m; sourceTree = "<group>"; };
+		8603B3BF18F417E30091B93A /* headerCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headerCircle.png; path = Images/headerCircle.png; sourceTree = "<group>"; };
+		8603B3C118F41A000091B93A /* REDNextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDNextButton.h; sourceTree = "<group>"; };
+		8603B3C218F41A000091B93A /* REDNextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDNextButton.m; sourceTree = "<group>"; };
+		8603B3C418F4255B0091B93A /* rectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectImage.png; path = Images/rectImage.png; sourceTree = "<group>"; };
+		8603B3C618F427100091B93A /* REDIntroduction4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDIntroduction4.h; sourceTree = "<group>"; };
+		8603B3C718F427100091B93A /* REDIntroduction4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDIntroduction4.m; sourceTree = "<group>"; };
+		8603B3C818F427100091B93A /* REDIntroduction4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDIntroduction4.xib; sourceTree = "<group>"; };
+		8603B3CB18F434D00091B93A /* REDViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDViewController5.h; sourceTree = "<group>"; };
+		8603B3CC18F434D00091B93A /* REDViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDViewController5.m; sourceTree = "<group>"; };
+		8603B3CD18F434D00091B93A /* REDViewController5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDViewController5.xib; sourceTree = "<group>"; };
+		8603B3D218F43C360091B93A /* circle52x52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle52x52.png; path = Images/circle52x52.png; sourceTree = "<group>"; };
+		8603B3D318F43C360091B93A /* circle33x33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle33x33.png; path = Images/circle33x33.png; sourceTree = "<group>"; };
+		8603B3D618F447370091B93A /* REDDemographicsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDDemographicsScreen.h; sourceTree = "<group>"; };
+		8603B3D718F447370091B93A /* REDDemographicsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDDemographicsScreen.m; sourceTree = "<group>"; };
+		8603B3D818F447380091B93A /* REDDemographicsScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDDemographicsScreen.xib; sourceTree = "<group>"; };
+		860E6C8E190689E10030FD2E /* REDThreeAnswerQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDThreeAnswerQuestion.h; sourceTree = "<group>"; };
+		860E6C8F190689E10030FD2E /* REDThreeAnswerQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDThreeAnswerQuestion.m; sourceTree = "<group>"; };
+		860E6C90190689E10030FD2E /* REDThreeAnswerQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDThreeAnswerQuestion.xib; sourceTree = "<group>"; };
+		860E6C93190695A40030FD2E /* REDEightBQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDEightBQuestion.h; sourceTree = "<group>"; };
+		860E6C94190695A40030FD2E /* REDEightBQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDEightBQuestion.m; sourceTree = "<group>"; };
+		860E6C95190695A40030FD2E /* REDEightBQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDEightBQuestion.xib; sourceTree = "<group>"; };
+		86137CA91907F60A00BEADCC /* BBAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAES.h; sourceTree = "<group>"; };
+		86137CAA1907F60A00BEADCC /* BBAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAES.m; sourceTree = "<group>"; };
+		86137CAC1907F68000BEADCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		86137CAF1907FE0000BEADCC /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		86137CB01907FE0000BEADCC /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		86137CB11907FE0000BEADCC /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		86137CB21907FE0000BEADCC /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		86137CB31907FE0000BEADCC /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		86137CB41907FE0000BEADCC /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		86137CB51907FE0000BEADCC /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		86137CB61907FE0000BEADCC /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		86137CB71907FE0000BEADCC /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		86137CB81907FE0000BEADCC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		86137CB91907FE0000BEADCC /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		86137CBA1907FE0000BEADCC /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		86137CBB1907FE0000BEADCC /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		86137CBC1907FE0000BEADCC /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		86137CBD1907FE0000BEADCC /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		86137CBE1907FE0000BEADCC /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		86137CBF1907FE0000BEADCC /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		86137CC01907FE0000BEADCC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		86137CC11907FE0000BEADCC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		867262B318FFFA9E00AA6F77 /* REDSexualRisk1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDSexualRisk1.h; sourceTree = "<group>"; };
+		867262B418FFFA9E00AA6F77 /* REDSexualRisk1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDSexualRisk1.m; sourceTree = "<group>"; };
+		867262B518FFFA9E00AA6F77 /* REDSexualRisk1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDSexualRisk1.xib; sourceTree = "<group>"; };
+		868568C119001EB70075C517 /* REDSexualRisk2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDSexualRisk2.h; sourceTree = "<group>"; };
+		868568C219001EB70075C517 /* REDSexualRisk2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDSexualRisk2.m; sourceTree = "<group>"; };
+		868568C319001EB70075C517 /* REDSexualRisk2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDSexualRisk2.xib; sourceTree = "<group>"; };
+		8691CE85190ABECC00FBCBF2 /* REDPrintController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDPrintController.h; sourceTree = "<group>"; };
+		8691CE86190ABECC00FBCBF2 /* REDPrintController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDPrintController.m; sourceTree = "<group>"; };
+		8691CE87190ABECC00FBCBF2 /* REDPrintController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDPrintController.xib; sourceTree = "<group>"; };
+		8691CE8A190AC81500FBCBF2 /* REDPrintingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDPrintingCell.h; sourceTree = "<group>"; };
+		8691CE8B190AC81500FBCBF2 /* REDPrintingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDPrintingCell.m; sourceTree = "<group>"; };
+		8691CE8C190AC81500FBCBF2 /* REDPrintingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDPrintingCell.xib; sourceTree = "<group>"; };
+		86922155190111590088AE8E /* circle52x52_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle52x52_selected.png; path = Images/circle52x52_selected.png; sourceTree = "<group>"; };
+		869221571901163C0088AE8E /* REDSexualRisk3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDSexualRisk3.h; sourceTree = "<group>"; };
+		869221581901163C0088AE8E /* REDSexualRisk3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDSexualRisk3.m; sourceTree = "<group>"; };
+		869221591901163C0088AE8E /* REDSexualRisk3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDSexualRisk3.xib; sourceTree = "<group>"; };
+		869426B118FEBF7A006C2056 /* REDDetailsQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDDetailsQuestion.h; sourceTree = "<group>"; };
+		869426B218FEBF7A006C2056 /* REDDetailsQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDDetailsQuestion.m; sourceTree = "<group>"; };
+		869426B318FEBF7A006C2056 /* REDDetailsQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDDetailsQuestion.xib; sourceTree = "<group>"; };
+		86A23E7F18FC05DA00A23163 /* REDTestNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDTestNavigationController.h; sourceTree = "<group>"; };
+		86A23E8018FC05DA00A23163 /* REDTestNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDTestNavigationController.m; sourceTree = "<group>"; };
+		86A23E8318FC0B9000A23163 /* REDMainQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDMainQuestion.h; sourceTree = "<group>"; };
+		86A23E8418FC0B9000A23163 /* REDMainQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDMainQuestion.m; sourceTree = "<group>"; };
+		86A23E8518FC0B9000A23163 /* REDMainQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDMainQuestion.xib; sourceTree = "<group>"; };
+		86A23E8818FC103600A23163 /* REDMainQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDMainQuestionCell.h; sourceTree = "<group>"; };
+		86A23E8918FC103600A23163 /* REDMainQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDMainQuestionCell.m; sourceTree = "<group>"; };
+		86A23E8A18FC103600A23163 /* REDMainQuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDMainQuestionCell.xib; sourceTree = "<group>"; };
+		86F451FC18F52BB10065E3FD /* REDValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDValidation.h; sourceTree = "<group>"; };
+		86F451FD18F52BB10065E3FD /* REDValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDValidation.m; sourceTree = "<group>"; };
+		86F451FF18F5585D0065E3FD /* REDCloseScreen1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDCloseScreen1.h; sourceTree = "<group>"; };
+		86F4520018F5585D0065E3FD /* REDCloseScreen1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDCloseScreen1.m; sourceTree = "<group>"; };
+		86F4520118F5585D0065E3FD /* REDCloseScreen1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDCloseScreen1.xib; sourceTree = "<group>"; };
+		86F4520418F55CCB0065E3FD /* REDResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDResultCell.h; sourceTree = "<group>"; };
+		86F4520518F55CCB0065E3FD /* REDResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDResultCell.m; sourceTree = "<group>"; };
+		86F4520618F55CCB0065E3FD /* REDResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDResultCell.xib; sourceTree = "<group>"; };
+		86F4520A18F5653D0065E3FD /* REDCloseScreen2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDCloseScreen2.h; sourceTree = "<group>"; };
+		86F4520B18F5653D0065E3FD /* REDCloseScreen2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDCloseScreen2.m; sourceTree = "<group>"; };
+		86F4520C18F5653D0065E3FD /* REDCloseScreen2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDCloseScreen2.xib; sourceTree = "<group>"; };
+		86F4520F18F56B9E0065E3FD /* REDCloseScreen3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDCloseScreen3.h; sourceTree = "<group>"; };
+		86F4521018F56B9E0065E3FD /* REDCloseScreen3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDCloseScreen3.m; sourceTree = "<group>"; };
+		86F4521118F56B9E0065E3FD /* REDCloseScreen3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDCloseScreen3.xib; sourceTree = "<group>"; };
+		86F4521418F583900065E3FD /* REDInformationScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDInformationScreen.h; sourceTree = "<group>"; };
+		86F4521518F583900065E3FD /* REDInformationScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDInformationScreen.m; sourceTree = "<group>"; };
+		86F4521618F583900065E3FD /* REDInformationScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDInformationScreen.xib; sourceTree = "<group>"; };
+		86F4521918F585C60065E3FD /* REDInformationScreen2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDInformationScreen2.h; sourceTree = "<group>"; };
+		86F4521A18F585C60065E3FD /* REDInformationScreen2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDInformationScreen2.m; sourceTree = "<group>"; };
+		86F4521B18F585C60065E3FD /* REDInformationScreen2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDInformationScreen2.xib; sourceTree = "<group>"; };
+		86F464FC18F686BF0008D25B /* REDInformationScreen3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDInformationScreen3.h; sourceTree = "<group>"; };
+		86F464FD18F686BF0008D25B /* REDInformationScreen3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDInformationScreen3.m; sourceTree = "<group>"; };
+		86F464FE18F686BF0008D25B /* REDInformationScreen3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDInformationScreen3.xib; sourceTree = "<group>"; };
+		86F4650118F6A8910008D25B /* REDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDTest.h; sourceTree = "<group>"; };
+		86F4650218F6A8910008D25B /* REDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDTest.m; sourceTree = "<group>"; };
+		86F4650318F6A8910008D25B /* REDTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDTest.xib; sourceTree = "<group>"; };
+		86F63C9418E315630073DD76 /* NYU Assist Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NYU Assist Pilot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F63C9718E315630073DD76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86F63C9918E315630073DD76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86F63C9B18E315630073DD76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86F63C9F18E315630073DD76 /* NYU Assist Pilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NYU Assist Pilot-Info.plist"; sourceTree = "<group>"; };
+		86F63CA118E315630073DD76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86F63CA318E315630073DD76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F63CA518E315630073DD76 /* NYU Assist Pilot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NYU Assist Pilot-Prefix.pch"; sourceTree = "<group>"; };
+		86F63CA618E315630073DD76 /* REDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REDAppDelegate.h; sourceTree = "<group>"; };
+		86F63CA718E315630073DD76 /* REDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REDAppDelegate.m; sourceTree = "<group>"; };
+		86F63CA918E315630073DD76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86F63CAF18E315630073DD76 /* NYU Assist PilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NYU Assist PilotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F63CB018E315630073DD76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86F63CB818E315640073DD76 /* NYU Assist PilotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NYU Assist PilotTests-Info.plist"; sourceTree = "<group>"; };
+		86F63CBA18E315640073DD76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86F63CBC18E315640073DD76 /* NYU_Assist_PilotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYU_Assist_PilotTests.m; sourceTree = "<group>"; };
+		86F7662C18E9987C0047DDE5 /* REDIntroductionScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDIntroductionScreen.h; sourceTree = "<group>"; };
+		86F7662D18E9987C0047DDE5 /* REDIntroductionScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDIntroductionScreen.m; sourceTree = "<group>"; };
+		86F7662E18E9987C0047DDE5 /* REDIntroductionScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDIntroductionScreen.xib; sourceTree = "<group>"; };
+		86F7663118E9A2A40047DDE5 /* SubparagraphList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SubparagraphList.plist; sourceTree = "<group>"; };
+		86F97D5E18FD28E400EED3AB /* REDQuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDQuestionManager.h; sourceTree = "<group>"; };
+		86F97D5F18FD28E400EED3AB /* REDQuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDQuestionManager.m; sourceTree = "<group>"; };
+		86F97D6118FD534E00EED3AB /* REDFiveAnswerQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDFiveAnswerQuestion.h; sourceTree = "<group>"; };
+		86F97D6218FD534E00EED3AB /* REDFiveAnswerQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDFiveAnswerQuestion.m; sourceTree = "<group>"; };
+		86F97D6318FD534E00EED3AB /* REDFiveAnswerQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REDFiveAnswerQuestion.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F63C9118E315630073DD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86137CAD1907F68000BEADCC /* Security.framework in Frameworks */,
+				86F63C9A18E315630073DD76 /* CoreGraphics.framework in Frameworks */,
+				86F63C9C18E315630073DD76 /* UIKit.framework in Frameworks */,
+				86F63C9818E315630073DD76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F63CAC18E315630073DD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F63CB118E315630073DD76 /* XCTest.framework in Frameworks */,
+				86F63CB318E315640073DD76 /* UIKit.framework in Frameworks */,
+				86F63CB218E315630073DD76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8603B3A718F40D430091B93A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3A818F40D430091B93A /* Hammersmith_One */,
+				8603B3AB18F40D430091B93A /* ITC Zapf Dingbats Std */,
+				8603B3AD18F40D430091B93A /* Muli */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8603B3A818F40D430091B93A /* Hammersmith_One */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3A918F40D430091B93A /* HammersmithOne-Regular.ttf */,
+			);
+			path = Hammersmith_One;
+			sourceTree = "<group>";
+		};
+		8603B3AB18F40D430091B93A /* ITC Zapf Dingbats Std */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3AC18F40D430091B93A /* ZapfDingbatsStd.otf */,
+			);
+			path = "ITC Zapf Dingbats Std";
+			sourceTree = "<group>";
+		};
+		8603B3AD18F40D430091B93A /* Muli */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3AE18F40D430091B93A /* Muli-Italic.ttf */,
+				8603B3AF18F40D430091B93A /* Muli-Light.ttf */,
+				8603B3B018F40D430091B93A /* Muli-LightItalic.ttf */,
+				8603B3B118F40D430091B93A /* Muli-Regular.ttf */,
+			);
+			path = Muli;
+			sourceTree = "<group>";
+		};
+		8603B3BE18F417D90091B93A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3D218F43C360091B93A /* circle52x52.png */,
+				86922155190111590088AE8E /* circle52x52_selected.png */,
+				8603B3D318F43C360091B93A /* circle33x33.png */,
+				8603B3BF18F417E30091B93A /* headerCircle.png */,
+				8603B3C418F4255B0091B93A /* rectImage.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		86137CA81907F60A00BEADCC /* AES128 */ = {
+			isa = PBXGroup;
+			children = (
+				86137CA91907F60A00BEADCC /* BBAES.h */,
+				86137CAA1907F60A00BEADCC /* BBAES.m */,
+			);
+			path = AES128;
+			sourceTree = "<group>";
+		};
+		86137CAE1907FE0000BEADCC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				86137CAF1907FE0000BEADCC /* AFHTTPClient.h */,
+				86137CB01907FE0000BEADCC /* AFHTTPClient.m */,
+				86137CB11907FE0000BEADCC /* AFHTTPRequestOperation.h */,
+				86137CB21907FE0000BEADCC /* AFHTTPRequestOperation.m */,
+				86137CB31907FE0000BEADCC /* AFImageRequestOperation.h */,
+				86137CB41907FE0000BEADCC /* AFImageRequestOperation.m */,
+				86137CB51907FE0000BEADCC /* AFJSONRequestOperation.h */,
+				86137CB61907FE0000BEADCC /* AFJSONRequestOperation.m */,
+				86137CB71907FE0000BEADCC /* AFNetworkActivityIndicatorManager.h */,
+				86137CB81907FE0000BEADCC /* AFNetworkActivityIndicatorManager.m */,
+				86137CB91907FE0000BEADCC /* AFNetworking.h */,
+				86137CBA1907FE0000BEADCC /* AFPropertyListRequestOperation.h */,
+				86137CBB1907FE0000BEADCC /* AFPropertyListRequestOperation.m */,
+				86137CBC1907FE0000BEADCC /* AFURLConnectionOperation.h */,
+				86137CBD1907FE0000BEADCC /* AFURLConnectionOperation.m */,
+				86137CBE1907FE0000BEADCC /* AFXMLRequestOperation.h */,
+				86137CBF1907FE0000BEADCC /* AFXMLRequestOperation.m */,
+				86137CC01907FE0000BEADCC /* UIImageView+AFNetworking.h */,
+				86137CC11907FE0000BEADCC /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = SOURCE_ROOT;
+		};
+		86A23E8218FC0B5E00A23163 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				86A23E8318FC0B9000A23163 /* REDMainQuestion.h */,
+				86A23E8418FC0B9000A23163 /* REDMainQuestion.m */,
+				86A23E8518FC0B9000A23163 /* REDMainQuestion.xib */,
+				86A23E8818FC103600A23163 /* REDMainQuestionCell.h */,
+				86A23E8918FC103600A23163 /* REDMainQuestionCell.m */,
+				86A23E8A18FC103600A23163 /* REDMainQuestionCell.xib */,
+				86F97D6118FD534E00EED3AB /* REDFiveAnswerQuestion.h */,
+				86F97D6218FD534E00EED3AB /* REDFiveAnswerQuestion.m */,
+				86F97D6318FD534E00EED3AB /* REDFiveAnswerQuestion.xib */,
+				869426B118FEBF7A006C2056 /* REDDetailsQuestion.h */,
+				869426B218FEBF7A006C2056 /* REDDetailsQuestion.m */,
+				869426B318FEBF7A006C2056 /* REDDetailsQuestion.xib */,
+				860E6C8E190689E10030FD2E /* REDThreeAnswerQuestion.h */,
+				860E6C8F190689E10030FD2E /* REDThreeAnswerQuestion.m */,
+				860E6C90190689E10030FD2E /* REDThreeAnswerQuestion.xib */,
+				860E6C93190695A40030FD2E /* REDEightBQuestion.h */,
+				860E6C94190695A40030FD2E /* REDEightBQuestion.m */,
+				860E6C95190695A40030FD2E /* REDEightBQuestion.xib */,
+			);
+			name = QuestionView;
+			sourceTree = "<group>";
+		};
+		86F4520918F5647E0065E3FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				86F4520418F55CCB0065E3FD /* REDResultCell.h */,
+				86F4520518F55CCB0065E3FD /* REDResultCell.m */,
+				86F4520618F55CCB0065E3FD /* REDResultCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		86F63C8B18E315630073DD76 = {
+			isa = PBXGroup;
+			children = (
+				86F63C9D18E315630073DD76 /* NYU Assist Pilot */,
+				86F63CB618E315640073DD76 /* NYU Assist PilotTests */,
+				86F63C9618E315630073DD76 /* Frameworks */,
+				86F63C9518E315630073DD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F63C9518E315630073DD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F63C9418E315630073DD76 /* NYU Assist Pilot.app */,
+				86F63CAF18E315630073DD76 /* NYU Assist PilotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F63C9618E315630073DD76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86137CAC1907F68000BEADCC /* Security.framework */,
+				86F63C9718E315630073DD76 /* Foundation.framework */,
+				86F63C9918E315630073DD76 /* CoreGraphics.framework */,
+				86F63C9B18E315630073DD76 /* UIKit.framework */,
+				86F63CB018E315630073DD76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86F63C9D18E315630073DD76 /* NYU Assist Pilot */ = {
+			isa = PBXGroup;
+			children = (
+				86137CAE1907FE0000BEADCC /* AFNetworking */,
+				86137CA81907F60A00BEADCC /* AES128 */,
+				86F7662B18E9984C0047DDE5 /* Screen */,
+				86F63CA618E315630073DD76 /* REDAppDelegate.h */,
+				86F63CA718E315630073DD76 /* REDAppDelegate.m */,
+				8603B3A018F3F2F30091B93A /* REDQuestionFactory.h */,
+				8603B3A118F3F2F30091B93A /* REDQuestionFactory.m */,
+				86F97D5E18FD28E400EED3AB /* REDQuestionManager.h */,
+				86F97D5F18FD28E400EED3AB /* REDQuestionManager.m */,
+				8603B39D18F3E8090091B93A /* REDSettings.h */,
+				8603B39E18F3E8090091B93A /* REDSettings.m */,
+				86F451FC18F52BB10065E3FD /* REDValidation.h */,
+				86F451FD18F52BB10065E3FD /* REDValidation.m */,
+				8603B3BB18F40F280091B93A /* REDFontManager.h */,
+				8603B3BC18F40F280091B93A /* REDFontManager.m */,
+				8603B3C118F41A000091B93A /* REDNextButton.h */,
+				8603B3C218F41A000091B93A /* REDNextButton.m */,
+				86A23E7F18FC05DA00A23163 /* REDTestNavigationController.h */,
+				86A23E8018FC05DA00A23163 /* REDTestNavigationController.m */,
+				86F63CA918E315630073DD76 /* Images.xcassets */,
+				86F63C9E18E315630073DD76 /* Supporting Files */,
+			);
+			path = "NYU Assist Pilot";
+			sourceTree = "<group>";
+		};
+		86F63C9E18E315630073DD76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8603B3BE18F417D90091B93A /* Images */,
+				8603B3A718F40D430091B93A /* Fonts */,
+				86F63C9F18E315630073DD76 /* NYU Assist Pilot-Info.plist */,
+				86F63CA018E315630073DD76 /* InfoPlist.strings */,
+				86F63CA318E315630073DD76 /* main.m */,
+				86F63CA518E315630073DD76 /* NYU Assist Pilot-Prefix.pch */,
+				86F7663118E9A2A40047DDE5 /* SubparagraphList.plist */,
+				8603B3A318F4092B0091B93A /* QuestionList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F63CB618E315640073DD76 /* NYU Assist PilotTests */ = {
+			isa = PBXGroup;
+			children = (
+				86F63CBC18E315640073DD76 /* NYU_Assist_PilotTests.m */,
+				86F63CB718E315640073DD76 /* Supporting Files */,
+			);
+			path = "NYU Assist PilotTests";
+			sourceTree = "<group>";
+		};
+		86F63CB718E315640073DD76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F63CB818E315640073DD76 /* NYU Assist PilotTests-Info.plist */,
+				86F63CB918E315640073DD76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F7662B18E9984C0047DDE5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				86A23E8218FC0B5E00A23163 /* QuestionView */,
+				86F4520918F5647E0065E3FD /* Cells */,
+				86F7662C18E9987C0047DDE5 /* REDIntroductionScreen.h */,
+				86F7662D18E9987C0047DDE5 /* REDIntroductionScreen.m */,
+				86F7662E18E9987C0047DDE5 /* REDIntroductionScreen.xib */,
+				86F4521418F583900065E3FD /* REDInformationScreen.h */,
+				86F4521518F583900065E3FD /* REDInformationScreen.m */,
+				86F4521618F583900065E3FD /* REDInformationScreen.xib */,
+				86F4521918F585C60065E3FD /* REDInformationScreen2.h */,
+				86F4521A18F585C60065E3FD /* REDInformationScreen2.m */,
+				86F4521B18F585C60065E3FD /* REDInformationScreen2.xib */,
+				86F464FC18F686BF0008D25B /* REDInformationScreen3.h */,
+				86F464FD18F686BF0008D25B /* REDInformationScreen3.m */,
+				86F464FE18F686BF0008D25B /* REDInformationScreen3.xib */,
+				8603B3C618F427100091B93A /* REDIntroduction4.h */,
+				8603B3C718F427100091B93A /* REDIntroduction4.m */,
+				8603B3C818F427100091B93A /* REDIntroduction4.xib */,
+				8603B3CB18F434D00091B93A /* REDViewController5.h */,
+				8603B3CC18F434D00091B93A /* REDViewController5.m */,
+				8603B3CD18F434D00091B93A /* REDViewController5.xib */,
+				86F4650118F6A8910008D25B /* REDTest.h */,
+				86F4650218F6A8910008D25B /* REDTest.m */,
+				86F4650318F6A8910008D25B /* REDTest.xib */,
+				8603B3D618F447370091B93A /* REDDemographicsScreen.h */,
+				8603B3D718F447370091B93A /* REDDemographicsScreen.m */,
+				8603B3D818F447380091B93A /* REDDemographicsScreen.xib */,
+				867262B318FFFA9E00AA6F77 /* REDSexualRisk1.h */,
+				867262B418FFFA9E00AA6F77 /* REDSexualRisk1.m */,
+				867262B518FFFA9E00AA6F77 /* REDSexualRisk1.xib */,
+				868568C119001EB70075C517 /* REDSexualRisk2.h */,
+				868568C219001EB70075C517 /* REDSexualRisk2.m */,
+				868568C319001EB70075C517 /* REDSexualRisk2.xib */,
+				869221571901163C0088AE8E /* REDSexualRisk3.h */,
+				869221581901163C0088AE8E /* REDSexualRisk3.m */,
+				869221591901163C0088AE8E /* REDSexualRisk3.xib */,
+				86F451FF18F5585D0065E3FD /* REDCloseScreen1.h */,
+				86F4520018F5585D0065E3FD /* REDCloseScreen1.m */,
+				86F4520118F5585D0065E3FD /* REDCloseScreen1.xib */,
+				86F4520A18F5653D0065E3FD /* REDCloseScreen2.h */,
+				86F4520B18F5653D0065E3FD /* REDCloseScreen2.m */,
+				86F4520C18F5653D0065E3FD /* REDCloseScreen2.xib */,
+				8691CE85190ABECC00FBCBF2 /* REDPrintController.h */,
+				8691CE86190ABECC00FBCBF2 /* REDPrintController.m */,
+				8691CE87190ABECC00FBCBF2 /* REDPrintController.xib */,
+				8691CE8A190AC81500FBCBF2 /* REDPrintingCell.h */,
+				8691CE8B190AC81500FBCBF2 /* REDPrintingCell.m */,
+				8691CE8C190AC81500FBCBF2 /* REDPrintingCell.xib */,
+				86F4520F18F56B9E0065E3FD /* REDCloseScreen3.h */,
+				86F4521018F56B9E0065E3FD /* REDCloseScreen3.m */,
+				86F4521118F56B9E0065E3FD /* REDCloseScreen3.xib */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F63C9318E315630073DD76 /* NYU Assist Pilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F63CC018E315640073DD76 /* Build configuration list for PBXNativeTarget "NYU Assist Pilot" */;
+			buildPhases = (
+				86F63C9018E315630073DD76 /* Sources */,
+				86F63C9118E315630073DD76 /* Frameworks */,
+				86F63C9218E315630073DD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYU Assist Pilot";
+			productName = "NYU Assist Pilot";
+			productReference = 86F63C9418E315630073DD76 /* NYU Assist Pilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F63CAE18E315630073DD76 /* NYU Assist PilotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F63CC318E315640073DD76 /* Build configuration list for PBXNativeTarget "NYU Assist PilotTests" */;
+			buildPhases = (
+				86F63CAB18E315630073DD76 /* Sources */,
+				86F63CAC18E315630073DD76 /* Frameworks */,
+				86F63CAD18E315630073DD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F63CB518E315640073DD76 /* PBXTargetDependency */,
+			);
+			name = "NYU Assist PilotTests";
+			productName = "NYU Assist PilotTests";
+			productReference = 86F63CAF18E315630073DD76 /* NYU Assist PilotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F63C8C18E315630073DD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RED;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Станислав Редреев";
+				TargetAttributes = {
+					86F63CAE18E315630073DD76 = {
+						TestTargetID = 86F63C9318E315630073DD76;
+					};
+				};
+			};
+			buildConfigurationList = 86F63C8F18E315630073DD76 /* Build configuration list for PBXProject "NYU Assist Pilot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86F63C8B18E315630073DD76;
+			productRefGroup = 86F63C9518E315630073DD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F63C9318E315630073DD76 /* NYU Assist Pilot */,
+				86F63CAE18E315630073DD76 /* NYU Assist PilotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F63C9218E315630073DD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8603B3C518F4255B0091B93A /* rectImage.png in Resources */,
+				8603B3D418F43C360091B93A /* circle52x52.png in Resources */,
+				86F4650518F6A8910008D25B /* REDTest.xib in Resources */,
+				8603B3C018F417E30091B93A /* headerCircle.png in Resources */,
+				86F63CA218E315630073DD76 /* InfoPlist.strings in Resources */,
+				8603B3DA18F447380091B93A /* REDDemographicsScreen.xib in Resources */,
+				860E6C92190689E20030FD2E /* REDThreeAnswerQuestion.xib in Resources */,
+				86F4521D18F585C60065E3FD /* REDInformationScreen2.xib in Resources */,
+				8603B3B518F40D430091B93A /* ZapfDingbatsStd.otf in Resources */,
+				8603B3B818F40D430091B93A /* Muli-LightItalic.ttf in Resources */,
+				8603B3CF18F434D00091B93A /* REDViewController5.xib in Resources */,
+				869426B518FEBF7A006C2056 /* REDDetailsQuestion.xib in Resources */,
+				8603B3B918F40D430091B93A /* Muli-Regular.ttf in Resources */,
+				86F4520318F5585D0065E3FD /* REDCloseScreen1.xib in Resources */,
+				8692215B1901163C0088AE8E /* REDSexualRisk3.xib in Resources */,
+				86F7663018E9987C0047DDE5 /* REDIntroductionScreen.xib in Resources */,
+				86F7663218E9A2A40047DDE5 /* SubparagraphList.plist in Resources */,
+				86F4521818F583900065E3FD /* REDInformationScreen.xib in Resources */,
+				86A23E8C18FC103600A23163 /* REDMainQuestionCell.xib in Resources */,
+				8603B3A418F4092B0091B93A /* QuestionList.plist in Resources */,
+				86F4520E18F5653D0065E3FD /* REDCloseScreen2.xib in Resources */,
+				86F63CAA18E315630073DD76 /* Images.xcassets in Resources */,
+				8603B3B618F40D430091B93A /* Muli-Italic.ttf in Resources */,
+				860E6C97190695A40030FD2E /* REDEightBQuestion.xib in Resources */,
+				86F97D6518FD534E00EED3AB /* REDFiveAnswerQuestion.xib in Resources */,
+				8603B3D518F43C360091B93A /* circle33x33.png in Resources */,
+				867262B718FFFA9F00AA6F77 /* REDSexualRisk1.xib in Resources */,
+				8603B3B318F40D430091B93A /* HammersmithOne-Regular.ttf in Resources */,
+				86F4521318F56B9E0065E3FD /* REDCloseScreen3.xib in Resources */,
+				8603B3B718F40D430091B93A /* Muli-Light.ttf in Resources */,
+				8691CE8E190AC81500FBCBF2 /* REDPrintingCell.xib in Resources */,
+				86A23E8718FC0B9000A23163 /* REDMainQuestion.xib in Resources */,
+				8603B3CA18F427100091B93A /* REDIntroduction4.xib in Resources */,
+				86F4650018F686C00008D25B /* REDInformationScreen3.xib in Resources */,
+				868568C519001EB70075C517 /* REDSexualRisk2.xib in Resources */,
+				86F4520818F55CCB0065E3FD /* REDResultCell.xib in Resources */,
+				8691CE89190ABECD00FBCBF2 /* REDPrintController.xib in Resources */,
+				86922156190111590088AE8E /* circle52x52_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F63CAD18E315630073DD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F63CBB18E315640073DD76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F63C9018E315630073DD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86137CC71907FE0000BEADCC /* AFPropertyListRequestOperation.m in Sources */,
+				869426B418FEBF7A006C2056 /* REDDetailsQuestion.m in Sources */,
+				86F4520718F55CCB0065E3FD /* REDResultCell.m in Sources */,
+				8603B3CE18F434D00091B93A /* REDViewController5.m in Sources */,
+				86137CC81907FE0000BEADCC /* AFURLConnectionOperation.m in Sources */,
+				86137CC51907FE0000BEADCC /* AFJSONRequestOperation.m in Sources */,
+				8691CE8D190AC81500FBCBF2 /* REDPrintingCell.m in Sources */,
+				86F4521718F583900065E3FD /* REDInformationScreen.m in Sources */,
+				867262B618FFFA9E00AA6F77 /* REDSexualRisk1.m in Sources */,
+				86A23E8118FC05DA00A23163 /* REDTestNavigationController.m in Sources */,
+				8603B39F18F3E8090091B93A /* REDSettings.m in Sources */,
+				86137CC61907FE0000BEADCC /* AFNetworkActivityIndicatorManager.m in Sources */,
+				86137CCA1907FE0000BEADCC /* UIImageView+AFNetworking.m in Sources */,
+				86F464FF18F686C00008D25B /* REDInformationScreen3.m in Sources */,
+				8603B3A218F3F2F30091B93A /* REDQuestionFactory.m in Sources */,
+				868568C419001EB70075C517 /* REDSexualRisk2.m in Sources */,
+				8603B3D918F447380091B93A /* REDDemographicsScreen.m in Sources */,
+				86F4521C18F585C60065E3FD /* REDInformationScreen2.m in Sources */,
+				86137CC91907FE0000BEADCC /* AFXMLRequestOperation.m in Sources */,
+				8691CE88190ABECD00FBCBF2 /* REDPrintController.m in Sources */,
+				8692215A1901163C0088AE8E /* REDSexualRisk3.m in Sources */,
+				86F4521218F56B9E0065E3FD /* REDCloseScreen3.m in Sources */,
+				86F7662F18E9987C0047DDE5 /* REDIntroductionScreen.m in Sources */,
+				86137CC21907FE0000BEADCC /* AFHTTPClient.m in Sources */,
+				86F63CA818E315630073DD76 /* REDAppDelegate.m in Sources */,
+				86F451FE18F52BB10065E3FD /* REDValidation.m in Sources */,
+				8603B3C318F41A000091B93A /* REDNextButton.m in Sources */,
+				86F4650418F6A8910008D25B /* REDTest.m in Sources */,
+				86F4520D18F5653D0065E3FD /* REDCloseScreen2.m in Sources */,
+				86137CC31907FE0000BEADCC /* AFHTTPRequestOperation.m in Sources */,
+				86137CC41907FE0000BEADCC /* AFImageRequestOperation.m in Sources */,
+				86F4520218F5585D0065E3FD /* REDCloseScreen1.m in Sources */,
+				860E6C96190695A40030FD2E /* REDEightBQuestion.m in Sources */,
+				8603B3BD18F40F280091B93A /* REDFontManager.m in Sources */,
+				8603B3C918F427100091B93A /* REDIntroduction4.m in Sources */,
+				86137CAB1907F60A00BEADCC /* BBAES.m in Sources */,
+				86F63CA418E315630073DD76 /* main.m in Sources */,
+				86F97D6018FD28E400EED3AB /* REDQuestionManager.m in Sources */,
+				86A23E8B18FC103600A23163 /* REDMainQuestionCell.m in Sources */,
+				86A23E8618FC0B9000A23163 /* REDMainQuestion.m in Sources */,
+				860E6C91190689E20030FD2E /* REDThreeAnswerQuestion.m in Sources */,
+				86F97D6418FD534E00EED3AB /* REDFiveAnswerQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F63CAB18E315630073DD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F63CBD18E315640073DD76 /* NYU_Assist_PilotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F63CB518E315640073DD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F63C9318E315630073DD76 /* NYU Assist Pilot */;
+			targetProxy = 86F63CB418E315640073DD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F63CA018E315630073DD76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F63CA118E315630073DD76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86F63CB918E315640073DD76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F63CBA18E315640073DD76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F63CBE18E315640073DD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F63CBF18E315640073DD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F63CC118E315640073DD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYU Assist Pilot/NYU Assist Pilot-Prefix.pch";
+				INFOPLIST_FILE = "NYU Assist Pilot/NYU Assist Pilot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86F63CC218E315640073DD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYU Assist Pilot/NYU Assist Pilot-Prefix.pch";
+				INFOPLIST_FILE = "NYU Assist Pilot/NYU Assist Pilot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86F63CC418E315640073DD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NYU Assist Pilot.app/NYU Assist Pilot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYU Assist Pilot/NYU Assist Pilot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NYU Assist PilotTests/NYU Assist PilotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86F63CC518E315640073DD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NYU Assist Pilot.app/NYU Assist Pilot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NYU Assist Pilot/NYU Assist Pilot-Prefix.pch";
+				INFOPLIST_FILE = "NYU Assist PilotTests/NYU Assist PilotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F63C8F18E315630073DD76 /* Build configuration list for PBXProject "NYU Assist Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F63CBE18E315640073DD76 /* Debug */,
+				86F63CBF18E315640073DD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F63CC018E315640073DD76 /* Build configuration list for PBXNativeTarget "NYU Assist Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F63CC118E315640073DD76 /* Debug */,
+				86F63CC218E315640073DD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F63CC318E315640073DD76 /* Build configuration list for PBXNativeTarget "NYU Assist PilotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F63CC418E315640073DD76 /* Debug */,
+				86F63CC518E315640073DD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F63C8C18E315630073DD76 /* Project object */;
+}

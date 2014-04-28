@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2</key>
+	<string>In the past three months, how often have you used the substances you mentioned (FIRST DRUG, SECOND DRUG, ETC)?</string>
+	<key>3</key>
+	<string>During the past three months, how often have you had a strong desire or urge to use (FIRST DRUG, SECOND DRUG, etc.)?</string>
+	<key>4</key>
+	<string>During the past three months, how often has your use of (FIRST DRUG, SECOND DRUG, etc.) led to health, social, legal, or financial problems?</string>
+	<key>5</key>
+	<string>During the past three months, how often have you failed to do what was normally expected of you because of your use of (FIRST DRUG, SECOND DRUG, etc.)?</string>
+	<key>6</key>
+	<string>Has a friend or relative or anyone else ever expressed concern about your use of (FIRST DRUG, SECOND DRUG, etc.)?</string>
+	<key>7</key>
+	<string>Have you ever tried and failed to control, cut down or stop using (FIRST DRUG, SECOND DRUG, etc.)?</string>
+	<key>8</key>
+	<string>Have you ever used any drug by injection? [RECREATIONAL or NON-MEDICAL USE ONLY]</string>
+	<key>9</key>
+	<string>In the past 3 months, how often have you injected drugs? [RECREATIONAL or NON-MEDICAL USE ONLY]</string>
+</dict>
+</plist>
